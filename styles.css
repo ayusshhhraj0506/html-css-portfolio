@@ -1,0 +1,58 @@
+
+.profilepic{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.profilepic:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.3)
+}
+h1{
+    background-color:rgb(145, 200, 228);
+}
+#surname{
+    background-color:rgb(116, 155, 194);
+}
+h1 span{
+    color:rgb(246, 244, 235)
+}
+h1:hover{
+    font-size: 80px;
+    transition: font-size 0.5s;
+}
+h2:hover{
+    font-size: 70px;
+    transition: font-size 0.5s
+}
+h2 span{
+    color:rgb(246, 244, 235)
+}
+.para:hover{
+    font-size: 50px;
+    transition: font-size 0.3s
+}
+hr {
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.lead{
+    font-family: var(--bs-body-font-family);
+    font-weight: var(--bs-body-font-weight);
+    font-size:25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+aboutcontent:hover{
+    font-size: 30px;
+    transition: font-size 0.5s;
+}
+#myskills{
+    background-color: rgb(145, 200, 228);
+    font-weight: bold;
+}
+
